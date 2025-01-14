@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+.todo
+
+raycast/
+
+.hyper_plugins/node_modules/
+.hyper_plugins/cache/
