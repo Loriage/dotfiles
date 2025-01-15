@@ -30,3 +30,6 @@ abbr -a -- gd 'git diff'
 abbr -a -- gs 'git status'
 
 abbr -a -- view_ports 'sudo lsof -i -n -P | grep 8080'
+
+# Utils
+abbr -a -- rm 'trash'
