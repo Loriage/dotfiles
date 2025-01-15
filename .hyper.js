@@ -10,7 +10,7 @@ module.exports = {
         // default font size in pixels for all tabs
         fontSize: 12,
         // font family with optional fallbacks
-        fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+        fontFamily: 'MesloLGS NF, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
         // default font weight: 'normal' or 'bold'
         fontWeight: 'normal',
         // font weight for bold characters: 'normal' or 'bold'
@@ -73,6 +73,12 @@ module.exports = {
             lightWhite: '#FFFFFF',
             limeGreen: '#32CD32',
             lightCoral: '#F08080',
+        },
+        hypest: {
+            // Default is false
+            darkmode: true,
+            vibrancyLevel: 0.1,
+            hideControls: true
         },
         // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
         // if left empty, your system's login shell will be used by default
@@ -137,7 +143,7 @@ module.exports = {
     //   `hyperpower`
     //   `@company/project`
     //   `project#1.0.1`
-    plugins: ["verminal", "hyper-font-ligatures"],
+    plugins: ["verminal", "hyper-font-ligatures", "hyper-hypest"],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
     // to load it and avoid it being `npm install`ed

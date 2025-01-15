@@ -8,6 +8,7 @@
   "homepage": "https://hyper.is",
   "dependencies": {
     "verminal": "latest",
-    "hyper-font-ligatures": "latest"
+    "hyper-font-ligatures": "latest",
+    "hyper-hypest": "latest"
   }
 }
